@@ -40,9 +40,9 @@ img {
     animation: imageBoxLoading 0.5s infinite;
 }
 @keyframes imageBoxLoading {
-    0% { background-color: #353535; }
-    50% { background-color: #404040; }
-    100% { background-color: #353535; }
+    0% { background-color: #eeeeee; }
+    50% { background-color: #dddddd; }
+    100% { background-color: #eeeeee; }
 }
 
 .banner_wrap {
