@@ -19,6 +19,15 @@ function bannerLoop() {
 }
 
 function toggleContent(index) {
+    let items = document.getElementsByClassName("contents_bottom_item");
+    for (let i = 0; i < items.length; i++) {
+        if (i != index) {
+            let top = document.getElementsByClassName("contents_bottom_item_top")[i];
+            if (top.classList.contains("contents_bottom_item_top_open")) {
+                hideContent(i);
+            }
+        }
+    }
     let item = document.getElementsByClassName("contents_bottom_item")[index];
     let top = item.getElementsByClassName("contents_bottom_item_top")[0];
     let content = item.getElementsByClassName("contents_bottom_item_content")[0];
