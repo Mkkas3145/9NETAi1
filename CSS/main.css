@@ -264,7 +264,7 @@ img {
 
 .contents_copyright {
     width: 100%; height: max-content;
-    color: var(--color9); font-size: 14px;
-    line-height: calc(14px * 1.5);
+    color: var(--color9); font-size: 12px;
+    line-height: calc(12px * 1.5);
     font-weight: bold;
 }
