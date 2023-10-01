@@ -21,10 +21,10 @@ function registerRipplesStyleSheets() {
             pointer-events: none;
         }
         .ripples .ripple {
-            background-color: #ffffff80;
+            background-color: #00000060;
         }
         .ripples:focus-visible {
-            outline: solid 5px #ffffff;
+            outline: solid 5px #000000;
             --focus-visible: true;
         }
     `;
