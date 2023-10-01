@@ -21,7 +21,7 @@ function registerRipplesStyleSheets() {
             pointer-events: none;
         }
         .ripples .ripple {
-            background-color: #00000060;
+            background-color: #00000040;
         }
         .ripples:focus-visible {
             outline: solid 5px #000000;
