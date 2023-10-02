@@ -242,7 +242,7 @@ function onRippleStart(event) {
     newEl.style.position = "absolute";
     newEl.style.top = "0px";
     newEl.style.left = "0px";
-    newEl.style.zIndex = "999";
+    newEl.style.zIndex = 2147483647;
     newEl.style.pointerEvents = "none";
     newEl.style.display = "flex";
     newEl.style.justifyContent = "center";
